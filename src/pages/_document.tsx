@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className='bg-black min-h-screen text-white px-24 py-8'>
         <Main />
         <NextScript />
       </body>
