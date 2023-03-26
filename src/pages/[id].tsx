@@ -22,11 +22,8 @@ const CardInfo: NextPage<MovieInfo> = ({ movie }) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <nav className='flex items-center justify-between'>
+            <nav className='flex items-center justify-start'>
                 <FilmIcon className='h-8 animate-pulse cursor-pointer' onClick={() => router.push('/')} />
-
-
-                <button className='bg-white border text-black transition duration-150 rounded-md px-6 py-2 hover:bg-black hover:text-white font-light hover:border'>Log in</button>
             </nav>
 
             <div className='flex items-center gap-10 w-4/5'>
